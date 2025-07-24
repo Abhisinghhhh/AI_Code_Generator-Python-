@@ -2,6 +2,8 @@ import os
 import requests
 import re
 
+# Set your Groq API Key
+os.environ["GROQ_API_KEY"] = "os.environ["GROQ_API_KEY"]"
 
 def clean_code(code):
     """
